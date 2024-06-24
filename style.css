@@ -1,0 +1,47 @@
+/* Target the installation section */
+section#installation {
+  /* Background with a subtle gradient */
+  background: linear-gradient(to right, #f2f2f2, #eee);
+  /* Add some padding for breathing room */
+  padding: 2rem;
+  /* Gentle rounded corners */
+  border-radius: 5px;
+  /* Create a drop shadow to make it stand out */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Styling for the title (H2) */
+  h2 {
+    /* Center align the title */
+    text-align: center;
+    /* Add some margin for spacing */
+    margin-bottom: 1rem;
+    /* A fun, decorative font for the title */
+    font-family: 'Permanent Marker', cursive;
+    /* A vibrant color for the title */
+    color: #3498db;
+  }
+  /* Style for the paragraph (P) */
+  p {
+    /* Add some line spacing for readability */
+    line-height: 1.5;
+  }
+  /* Style for the ordered list (OL) */
+  ol {
+    /* Some padding for the list items */
+    padding-left: 1.5rem;
+    /* Style the list markers with a checkmark icon */
+    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 5L5 8 8 2' stroke='%233498db' stroke-width='2' fill='none' /%3E%3C/svg%3E");
+  }
+  /* Style for the code block (PRE) */
+  pre {
+    /* Use a code font for better readability */
+    font-family: monospace;
+    /* Add some background color for contrast */
+    background-color: #f0f0f0;
+    /* Add some padding for spacing */
+    padding: 1rem;
+    /* Rounded corners for the code block */
+    border-radius: 3px;
+    /* Display code in a fixed-width container */
+    overflow: auto;
+  }
+}
